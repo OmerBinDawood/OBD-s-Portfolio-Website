@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <img src="OBD LOGO.jpg" alt="Logo" class="logo-img">
+            <a href="/index.html">OBD</a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/about.html">About</a></li>
+            <li><a href="/projects.html">Projects</a></li>
+            <li><a href="/blog.html">Blogs</a></li>
+            <li><a href="/testimonials.html">Testimonials</a></li>
+            <li><a href="/contact.html">Contact</a></li>
+        </ul>
+        <div class="nav-controls">
+            <button id="theme-toggle">
+                <i class="fa fa-sun"></i>
+                <i class="fa fa-moon"></i>
+            </button>
+            <div class="burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-image">
+                <img src="obd2.jpg" alt="Your Image"> <!-- Replace with your image path -->
+            </div>
+            <div class="hero-text">
+                <h1>Omer Bin Dawood</h1>
+                <p>Data Scientist and MERN Stack Developer</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="skill-text">
+        <h1>Professional and Soft skills</h1>
+    </div>
+    
+    
+
+    <section class="icons">
+        <div class="icons-grid">
+            <!-- Data Science and Analytics -->
+            <div class="icon-item">
+                <i class="fas fa-database" data-target="#database-card"></i>
+                <p>Database</p>
+            </div>
+            <div class="icon-item">
+                <i class="fas fa-chart-line" data-target="#data-visualization-card"></i>
+                <p>Data Visualization</p>
+            </div>
+            <div class="icon-item">
+                <i class="fas fa-project-diagram" data-target="#project-management-card"></i>
+                <p>Project Management</p>
+            </div>
+            <div class="icon-item">
+                <i class="fas fa-brain" data-target="#machine-learning-card"></i>
+                <p>Machine Learning</p>
+            </div>
+            <div class="icon-item">
+                <i class="fas fa-laptop-code" data-target="#programming-card"></i>
+                <p>Programming</p>
+            </div>
+            <div class="icon-item">
+                <i class="fas fa-chart-pie" data-target="#data-analysis-card"></i>
+                <p>Data Analysis</p>
+            </div>
+            <div class="icon-item">
+                <i class="fas fa-cogs" data-target="#automation-card"></i>
+                <p>Automation</p>
+            </div>
+            <div class="icon-item">
+                <i class="fas fa-server" data-target="#server-management-card"></i>
+                <p>Server Management</p>
+            </div>
+            <div class="icon-item">
+                <i class="fas fa-network-wired" data-target="#networking-card"></i>
+                <p>Networking</p>
+            </div>
+            <div class="icon-item">
+                <i class="fas fa-code" data-target="#code-card"></i>
+                <p>Code</p>
+            </div>
+            <div class="icon-item">
+                <i class="fas fa-robot" data-target="#ai-card"></i>
+                <p>Artificial Intelligence</p>
+            </div>
+            <div class="icon-item">
+                <i class="fas fa-chart-bar" data-target="#bi-card"></i>
+                <p>Business Intelligence</p>
+            </div>
+
+            <!-- Programming Languages -->
+            <div class="icon-item">
+                <i class="fab fa-python" data-target="#python-card"></i>
+                <p>Python</p>
+            </div>
+            <div class="icon-item">
+                <i class="fab fa-java" data-target="#java-card"></i>
+                <p>Java</p>
+            </div>
+            <div class="icon-item">
+                <i class="fab fa-c" data-target="#c-card"></i>
+                <p>C++</p>
+            </div>
+            <div class="icon-item">
+                <i class="fab fa-r" data-target="#r-card"></i>
+                <p>R-Studio</p>
+            </div>
+            <div class="icon-item">
+                <i class="fab fa-js" data-target="#js-card"></i>
+                <p>JavaScript</p>
+            </div>
+            <div class="icon-item">
+                <i class="fab fa-html5" data-target="#html-card"></i>
+                <p>HTML5</p>
+            </div>
+            <div class="icon-item">
+                <i class="fab fa-css3-alt" data-target="#css-card"></i>
+                <p>CSS3</p>
+            </div>
+            <div class="icon-item">
+                <i class="fab fa-node-js" data-target="#node-card"></i>
+                <p>Node.js</p>
+            </div>
+            <div class="icon-item">
+                <i class="fab fa-react" data-target="#react-card"></i>
+                <p>React</p>
+            </div>
+            <div class="icon-item">
+                <i class="fas fa-database" data-target="#sql-card"></i>
+                <p>SQL</p>
+            </div>
+            <div class="icon-item">
+                <i class="fab fa-node" data-target="#mern-card"></i>
+                <p>MERN Stack</p>
+            </div>
+
+            <!-- Video Editing and Graphic Designing -->
+            <div class="icon-item">
+                <i class="fas fa-video" data-target="#video-editing-card"></i>
+                <p>Video Editing</p>
+            </div>
+            <div class="icon-item">
+                <i class="fas fa-paint-brush" data-target="#graphic-design-card"></i>
+                <p>Graphic Design</p>
+            </div>
+
+            <!-- Soft Skills -->
+            <div class="icon-item">
+                <i class="fas fa-bullhorn" data-target="#marketing-card"></i>
+                <p>Marketing</p>
+            </div>
+            <div class="icon-item">
+                <i class="fas fa-comments" data-target="#communication-card"></i>
+                <p>Communication</p>
+            </div>
+            <div class="icon-item">
+                <i class="fas fa-lightbulb" data-target="#creative-thinking-card"></i>
+                <p>Creative Thinking</p>
+            </div>
+            <div class="icon-item">
+                <i class="fas fa-handshake" data-target="#teamwork-card"></i>
+                <p>Teamwork</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="features">
+        <!-- Features cards with detailed info -->
+        <div class="card" id="database-card">
+            <h4>Database Management</h4>
+            <div class="fcard">
+                <div class="c-content">
+                    <p>Extensive experience in managing and optimizing databases to ensure efficient data storage and
+                        retrieval. Skilled in SQL and NoSQL databases.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card" id="data-visualization-card">
+            <h4>Data Visualization</h4>
+            <div class="fcard">
+                <div class="c-content">
+                    <p>Proficient in creating insightful data visualizations using tools like Tableau, Power BI, and
+                        custom visualizations with D3.js.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card" id="project-management-card">
+            <h4>Project Management</h4>
+            <div class="fcard">
+                <div class="c-content">
+                    <p>Experienced in managing projects from inception to completion using methodologies such as Agile
+                        and Scrum. Skilled in team coordination and project planning.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card" id="machine-learning-card">
+            <h4>Machine Learning</h4>
+            <div class="fcard">
+                <div class="c-content">
+                    <p>Expert in developing and deploying machine learning models using Python libraries like
+                        scikit-learn and TensorFlow. Experience with supervised and unsupervised learning.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card" id="programming-card">
+            <h4>Programming</h4>
+            <div class="fcard">
+                <div class="c-content">
+                    <p>Skilled in various programming languages including Python, Java, JavaScript, and C++. Proficient
+                        in software development and problem-solving.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card" id="data-analysis-card">
+            <h4>Data Analysis</h4>
+            <div class="fcard">
+                <div class="c-content">
+                    <p>Strong background in analyzing data to extract meaningful insights. Experience with statistical
+                        analysis and data cleaning techniques.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card" id="automation-card">
+            <h4>Automation</h4>
+            <div class="fcard">
+                <div class="c-content">
+                    <p>Proficient in automating repetitive tasks and workflows using scripting languages and tools like
+                        Selenium and Bash scripts.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card" id="server-management-card">
+            <h4>Server Management</h4>
+            <div class="fcard">
+                <div class="c-content">
+                    <p>Experienced in managing and configuring servers, including cloud services like AWS and Azure.
+                        Knowledgeable in server security and performance optimization.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card" id="networking-card">
+            <h4>Networking</h4>
+            <div class="fcard">
+                <div class="c-content">
+                    <p>Skilled in network design, implementation, and troubleshooting. Knowledgeable in network
+                        protocols, firewalls, and VPNs.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card" id="code-card">
+            <h4>Code</h4>
+            <div class="fcard">
+                <div class="c-content">
+                    <p>Strong coding skills in multiple languages. Experience in writing clean, efficient code and
+                        adhering to best practices.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card" id="ai-card">
+            <h4>Artificial Intelligence</h4>
+            <div class="fcard">
+                <div class="c-content">
+                    <p>Proficient in AI techniques including natural language processing and computer vision.
+                        Experienced with AI frameworks and libraries.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card" id="bi-card">
+            <h4>Business Intelligence</h4>
+            <div class="fcard">
+                <div class="c-content">
+                    <p>Expertise in BI tools and techniques to help organizations make data-driven decisions. Skilled in
+                        creating dashboards and reports.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Programming Languages -->
+        <div class="card" id="python-card">
+            <h4>Python</h4>
+            <div class="fcard">
+                <div class="c-content">
+                    <p>Proficient in Python, using it for data analysis, machine learning, and web development.
+                        Experienced with libraries such as NumPy, Pandas, and Django for building robust applications
+                        and conducting complex analyses.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card" id="java-card">
+            <h4>Java</h4>
+            <div class="fcard">
+                <div class="c-content">
+                    <p>Experienced in Java for developing enterprise-level applications. Skilled in object-oriented
+                        programming and familiar with frameworks like Spring and Hibernate for building scalable and
+                        efficient applications.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card" id="c-card">
+            <h4>C++</h4>
+            <div class="fcard">
+                <div class="c-content">
+                    <p>Advanced skills in C++ for system-level programming and performance-critical applications.
+                        Proficient in managing memory, optimizing code, and developing complex algorithms.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card" id="r-card">
+            <h4>R-Studio</h4>
+            <div class="fcard">
+                <div class="c-content">
+                    <p>Skilled in using R for statistical analysis and data visualization. Experienced with R-Studio for
+                        creating detailed reports and performing advanced statistical analyses.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card" id="js-card">
+            <h4>JavaScript</h4>
+            <div class="fcard">
+                <div class="c-content">
+                    <p>Proficient in JavaScript for building interactive web applications. Experienced with frameworks
+                        like React and Node.js for both front-end and back-end development.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card" id="html-card">
+            <h4>HTML5</h4>
+            <div class="fcard">
+                <div class="c-content">
+                    <p>Expert in HTML5 for creating well-structured and semantic web pages. Knowledgeable in using HTML5
+                        features for better accessibility and user experience.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card" id="css-card">
+            <h4>CSS3</h4>
+            <div class="fcard">
+                <div class="c-content">
+                    <p>Experienced in CSS3 for designing responsive and visually appealing web pages. Proficient in
+                        using advanced CSS features like Flexbox and Grid for modern layout designs.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card" id="node-card">
+            <h4>Node.js</h4>
+            <div class="fcard">
+                <div class="c-content">
+                    <p>Skilled in Node.js for server-side programming and building scalable network applications.
+                        Experienced with asynchronous programming and RESTful API development.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card" id="react-card">
+            <h4>React</h4>
+            <div class="fcard">
+                <div class="c-content">
+                    <p>Proficient in React for developing dynamic and high-performance user interfaces. Experienced with
+                        React hooks, context API, and state management.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card" id="sql-card">
+            <h4>SQL</h4>
+            <div class="fcard">
+                <div class="c-content">
+                    <p>Expert in SQL for querying and managing relational databases. Skilled in writing complex queries,
+                        optimizing database performance, and ensuring data integrity.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card" id="mern-card">
+            <h4>MERN Stack</h4>
+            <div class="fcard">
+                <div class="c-content">
+                    <p>Experienced with the MERN stack (MongoDB, Express.js, React, Node.js) for full-stack web
+                        development. Proficient in building end-to-end applications with modern development practices.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Video Editing and Graphic Designing -->
+        <div class="card" id="video-editing-card">
+            <h4>Video Editing</h4>
+            <div class="fcard">
+                <div class="c-content">
+                    <p>Skilled in video editing using tools like Adobe Premiere Pro and Final Cut Pro. Experienced in
+                        creating engaging video content for various platforms and purposes.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card" id="graphic-design-card">
+            <h4>Graphic Design</h4>
+            <div class="fcard">
+                <div class="c-content">
+                    <p>Experienced in graphic design with tools like Adobe Photoshop and Illustrator. Proficient in
+                        creating visually appealing designs for web and print media.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Soft Skills -->
+        <div class="card" id="marketing-card">
+            <h4>Marketing</h4>
+            <div class="fcard">
+                <div class="c-content">
+                    <p>Skilled in marketing strategies and campaigns. Experienced with digital marketing tools and
+                        techniques for promoting products and services effectively.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card" id="communication-card">
+            <h4>Communication</h4>
+            <div class="fcard">
+                <div class="c-content">
+                    <p>Proficient in both written and verbal communication. Experienced in presenting ideas clearly,
+                        collaborating with teams, and engaging with clients effectively.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card" id="creative-thinking-card">
+            <h4>Creative Thinking</h4>
+            <div class="fcard">
+                <div class="c-content">
+                    <p>Skilled in creative problem-solving and innovative thinking. Experienced in brainstorming and
+                        developing unique solutions to complex challenges.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card" id="teamwork-card">
+            <h4>Teamwork</h4>
+            <div class="fcard">
+                <div class="c-content">
+                    <p>Experienced in working effectively in team environments. Skilled in collaboration, conflict
+                        resolution, and contributing to team goals and objectives.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+ 
+
+    <!-- Core Values -->
+    <section id="core-values">
+        <div class="container">
+            <h2 class="section-title">Core Values</h2>
+            <div class="values-grid">
+                <div class="value-card">
+                    <i class="fas fa-lightbulb value-icon"></i>
+                    <h3 class="value-title">Innovation</h3>
+                    <p class="value-description">Constantly pushing the boundaries of web development with fresh ideas
+                        and cutting-edge technology.</p>
+                </div>
+                <div class="value-card">
+                    <i class="fas fa-code value-icon"></i>
+                    <h3 class="value-title">Excellence</h3>
+                    <p class="value-description">Commitment to delivering high-quality, clean, and efficient code that
+                        meets the highest standards.</p>
+                </div>
+                <div class="value-card">
+                    <i class="fas fa-users value-icon"></i>
+                    <h3 class="value-title">Collaboration</h3>
+                    <p class="value-description">Working seamlessly with clients and teams to achieve shared goals and
+                        deliver exceptional results.</p>
+                </div>
+                <div class="value-card">
+                    <i class="fas fa-tachometer-alt value-icon"></i>
+                    <h3 class="value-title">Performance</h3>
+                    <p class="value-description">Optimizing websites for speed and efficiency to ensure the best user
+                        experience and engagement.</p>
+                </div>
+                <div class="value-card">
+                    <i class="fas fa-lock value-icon"></i>
+                    <h3 class="value-title">Security</h3>
+                    <p class="value-description">Prioritizing the security of web applications to protect user data and
+                        maintain trust.</p>
+                </div>
+                <div class="value-card">
+                    <i class="fas fa-mobile-alt value-icon"></i>
+                    <h3 class="value-title">Responsiveness</h3>
+                    <p class="value-description">Designing and developing responsive websites that look and function
+                        perfectly on any device.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer>
+        <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="OBD LOGO.jpg" alt="Logo" class="logo-img">
+            <a href="/index.html">OBD</a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/about.html">About</a></li>
+            <li><a href="/projects.html">Projects</a></li>
+            <li><a href="/blog.html">Blogs</a></li>
+            <li><a href="/testimonials.html">Testimonials</a></li>
+            <li><a href="/contact.html">Contact</a></li>
+        </ul>
+        <div class="nav-controls">
+            <button id="theme-toggle">
+                <i class="fa fa-sun"></i>
+                <i class="fa fa-moon"></i>
+            </button>
+            <div class="burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </div>
+    </nav>
+    
+    <section id="contact" class="contact">
+        <h2>Contact</h2>
+        <div class="contact-info">
+            <div class="contact-item">
+                <i class="fa fa-envelope"></i>
+                <span><a href="mailto:omerbindawood@gmail.com">omerbindawood@gmail.com</a></span>
+            </div>
+            <div class="contact-item">
+                <i class="fa fa-phone"></i>
+                <span><a href="tel:+923378624781">(92) 337-8624781</a></span>
+            </div>
+            <div class="contact-item">
+                <i class="fab fa-linkedin"></i>
+                <span><a href="https://www.linkedin.com/in/omer-bin-dawood-2a3075239" target="_blank">Omer Bin Dawood</a></span>
+            </div>
+            <div class="contact-item">
+                <i class="fab fa-instagram"></i>
+                <span><a href="https://www.instagram.com/obd_here?igsh=MTgxMGk2NHViaHM0OQ==" target="_blank">obd_here</a></span>
+            </div>
+        </div>
+        
+        <form action="/contact" method="post">
+            <div class="form-group">
+                <input type="text" name="name" placeholder="Enter Name" required>
+            </div>
+            <div class="form-group">
+                <input type="email" name="email" placeholder="Enter Email" required>
+            </div>
+            <div class="form-group">
+                <input type="text" name="contact" placeholder="Enter Contact Number along with Country Code" required>
+            </div>
+            <div class="form-group">
+                <textarea name="message" placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="app.js"></script>
+
+</body>
+</html>
